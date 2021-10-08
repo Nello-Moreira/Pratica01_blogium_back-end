@@ -1,7 +1,7 @@
 import fs from 'fs';
 
-const postsDataPath = './data/posts.json';
-const commentsDataPath = './data/comments.json';
+const postsDataPath = './src/data/posts.json';
+const commentsDataPath = './src/data/comments.json';
 
 const getStoredPosts = () => {
 	if (!fs.existsSync(postsDataPath)) {
